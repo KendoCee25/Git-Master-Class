@@ -21,13 +21,32 @@
 * ### Explain in simple terms git rebase and the command for it.
 >> **Git rebase** is a command that replays your local commits on tops of the latest changes from the remote, repository, making it easier to understand and navigate.
 
->> *Git Rebase Command*
+>> * ### Git Rebase Command
 
->> git rebase [branch-name]
+>> 1. bash
+>>> git rebase `<branch>`
+
+>> 2. Interactive Rebase
+>>> git rebase -i `<base-branch>`
+
+>> 3. Abort Rebase
+>>> git rebase --abort
+
+>> 4. Continue Rebase
+>>> git rebase --continue
+
+>> 5. Skip a Commit
+>>> git rebase --skip
 
 * ### Explain in simple terms git cherry-pick and the command for it.
 >> **Git cherry-pick** is a command that allows you to apply a specific commit from one branch to another branch.
 
->> *Git Cherry-Pick*
+>> * ### Git Cherry-Pick command
 
->> git cherry-pick [commit-hash]
+>> 1. git cherry-pick bash
+>>> git cherry-pick `<commit-hash>`
+
+>> 3. git cherry-pick --abort
+
+>> 4. git cherry-pick --continue
+
